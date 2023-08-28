@@ -1,0 +1,14 @@
+<%- include('../layouts/header') %>
+
+<div class="container">
+    <div class="pt-5">
+        <h1>Welcome, <%= user.name %></h1>
+        
+        <form action="/logout" method="post">
+            <button type="submit" class="btn btn-warning">Logout</button>
+        </form>
+    </div>
+</div>
+
+
+<%- include('../layouts/footer') %>
